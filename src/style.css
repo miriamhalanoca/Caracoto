@@ -3,49 +3,28 @@
     padding:0;
     }
    
-     /* body{
-        background-image:url(imagenes/verde.jpg);
-         background-repeat: no-repeat; 
+     body{
+        font-family: Helvetica, Arial, sans-serif;
+        color: #666;
+      background: #f2f2f2; 
+    font-size: 1em;
+    line-height: 1.5em;
     
-    }  */
-  /* .portada {
-    
-        
-        background-size:100% 200%;
-    }    
-    header {
-        width: 100%;
-       left: 0;
-       top:0;
-       position: absolute;
-   }header nav {
-    float: right;
-    line-height: 55px;
-    padding: 15px 30px 0px 0px;
-    }
-header nav a  {
-    display: inline-block;
-    overflow-wrap: 300;
-    color:rgb(49, 184, 121);
-    text-decoration: none;
-    padding: 10px 10px;
-    line-height: normal;
-    font-size: 20px;
-    font-weight: bolder;
-    justify-content: left;
-    }
-header nav a:hover {
-
-    background:yellow;
-    color:rgb(0,0,205);
-    border-radius: 20px;
-    }   */
+    } 
+  
     #page {
         margin: 0px auto;
         width: 100%;
     }
     .menu{
-        font-family: 'Ubuntu', sans-serif;
+       
+    top: -3px;
+    /* width: 100%; */
+    height: -15px;
+    left: 13%;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+
     }
     
     #lista{
@@ -70,27 +49,32 @@ header nav a:hover {
         }
         
     
-    #imagen-logo{
+     #imagen-logo{
         max-width: 150%;
         max-height: 80px;
         float: left;
         padding: 10px 5px 10px 5px;
         margin-left: 30px;
-    }
+        margin-top: -20px;
+    } 
     
     header {
-         /* width: 100%;
-        background:linear-gradient(red 70% ,rgba(245,245,220,0.1 ));
-        left: 0;
-        top:0;
-        position: fixed; */
         /* position: fixed; */
+        background-image: url(imagenes/foto.jpg);
         top: 0;
         width: 100%;
         padding: 15px 20px;
-        background-color: rgb(32, 105, 87);
+        /* background-color: rgb(32, 105, 87); */
         font-size: 20px;
         color: #FFFFFF;
+    }
+    header .imagen-logo {
+        width: 100;
+        max-height: 80px;
+        float: left;
+        padding: 15px 20px;
+        margin-left: 30px;
+        font-size: 20px;
     }
     header .wrapper {
         display: table;
@@ -120,17 +104,18 @@ header nav a:hover {
             padding: 15px 30px 0px 0px;
             }
         header nav a  {
-            display: inline-block;
-            color:white;
-            text-decoration: none;
-            padding: 10px 10px;
-            line-height: normal;
-            font-size: 20px;
-            font-weight:bold;
-            -transition:all 500ms ease;
-            -o-transition: all 500ms ease;
-            transition: all 500ms ease;
-            justify-content: left;
+           
+    display: inline-block;
+    color: rgb(25 66 56);
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    justify-content: left;
             }
         header nav a:hover {
         
@@ -145,34 +130,30 @@ header nav a:hover {
 
 /* pagina 1 */
      .cuadrado { 
-        border-style:solid;
-        border-width:2px;
-        border-color:red;
-        position: relative;
-        width: 50%; 
-         background:linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
-        top:152px;
-        border-color:black(49 184 121);
+        background-image: url(imagenes/fotodecaracoto.jpg);
+        background-repeat: no-repeat;
         border-width: 1px;
         position: relative;
         border-style: solid;
-        width: 100%;
-        height: 900px;
-        left: 0%;
-
+        width: 20%;
+        height: 183px;
+        left: 2%;
+        top: 7px;
+        
  
     } 
-    .cuadrado2{
-        background:linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
-        top: 0px;
-        border-color:black(49 184 121);
-        border-width: 4px;
+    .inicio{
+        background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
+        top: -180px;
+        border-color: black(49 184 121);
+        border-width: 0px;
         position: relative;
-        border-style: solid; 
-         border-style: solid; 
-         width: 51%;
-        height: 661px;
-        left: 48% 
+        border-style: solid;
+        border-style: solid;
+        width: 66%;
+        height: 730px;
+        left: 29%;
+        position: relative;
       
     }
 .foto{
@@ -193,22 +174,223 @@ header nav a:hover {
 }
 /* segunda pagina */
 
-
 .segundo{
-    background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
-    top: 214px;
+    top: 49px;
     border-color: black(49 184 121);
-    border-width: 2px;
+    border-width: 0px;
     position: relative;
     border-style: solid;
-    width: 29%;
-    height: 117px;
-    left: 34%;
+    border-style: solid;
+    width: 20%;
+    height: 703px;
+    left: 38%;
+    position: relative;
 }
+.consejo1{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5e5da9;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.consejo2{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5e5da9;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+
+.OrganizacionMunicipal{
+    width: 40%;
+    height: 350px;
+    top: 0px;
+     background-repeat: no-repeat;
+    left: -14%;
+    position: relative;  
+    max-width: 100%;
+    height: auto;
+
+}
+.AsesorLegal{
+    background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
+        top: -400px;
+        border-color: black(49 184 121);
+        border-width: 0px;
+        position: relative;
+        border-style: solid;
+        border-style: solid;
+        width: 69%;
+        height: 730px;
+        left: 29%;
+        position: relative;
+
+}
+.recursohumano{
+    background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
+        top: -400px;
+        border-color: black(49 184 121);
+        border-width: 0px;
+        position: relative;
+        border-style: solid;
+        border-style: solid;
+        width: 69%;
+        height: 730px;
+        left: 29%;
+        position: relative;
+
+}
+
+.JEFEEXTERNO{
+    background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
+        top: -400px;
+        border-color: black(49 184 121);
+        border-width: 0px;
+        position: relative;
+        border-style: solid;
+        border-style: solid;
+        width: 69%;
+        height: 730px;
+        left: 29%;
+        position: relative;
+
+}
+
+.btn{
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #cedaa3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  }
 
 /* 3ra pantalla */
+p{
+    color: black;
+}
 
-.consejo{
+.pantalla3{
+    width: 37%;
+    height: 350px;
+    top: 0px;
+    background-repeat: no-repeat;
+    left: 6%;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.tramites{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #a39fdc;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.MATRIMONIO{
+    background: linear-gradient(#cedaa3 70% ,rgba(245,245,220,0.1 ));
+    top:-196px;
+    border-color: black(49 184 121);
+    border-width: 0px;
+    position: relative;
+    border-style: solid;
+    border-style: solid;
+    width: 94%;
+    height: 239px;
+    left: 100%;
+    position: relative;
+} 
+
+.AUTOVALUO{
+    background: linear-gradient(#cedaa3 70% ,rgba(245,245,220,0.1 ));
+    top:-196px;
+    border-color: black(49 184 121);
+    border-width: 0px;
+    position: relative;
+    border-style: solid;
+    border-style: solid;
+    width: 94%;
+    height: 239px;
+    left: 100%;
+    position: relative;
+} 
+
+.VASOLECHE{
+    background: linear-gradient(#cedaa3 70% ,rgba(245,245,220,0.1 ));
+    top:-196px;
+    border-color: black(49 184 121);
+    border-width: 0px;
+    position: relative;
+    border-style: solid;
+    border-style: solid;
+    width: 94%;
+    height: 239px;
+    left: 100%;
+    position: relative;
+} 
+.PENSION65{
+    background: linear-gradient(#cedaa3 70% ,rgba(245,245,220,0.1 ));
+    top:-196px;
+    border-color: black(49 184 121);
+    border-width: 0px;
+    position: relative;
+    border-style: solid;
+    border-style: solid;
+    width: 94%;
+    height: 239px;
+    left: 100%;
+    position: relative;
+} 
+.ALQUILER{
+    background: linear-gradient(#cedaa3 70% ,rgba(245,245,220,0.1 ));
+    top: -196px;
+    border-color: black(49 184 121);
+    border-width: 0px;
+    position: relative;
+    border-style: solid;
+    border-style: solid;
+    width: 94%;
+    height: 239px;
+    left: 100%;
+    position: relative;
+} 
+
+
+/* .consejo{
     background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
     top: 214px;
     border-color: black(49 184 121);
@@ -218,17 +400,13 @@ header nav a:hover {
     width: 29%;
     height: 117px;
     left: 34%;
-}
+} */
 
 /* 4ta pantalla */
 .contactenos{
-    background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
-    top: 214px;
-    border-color: black(49 184 121);
-    border-width: 2px;
     position: relative;
-    border-style: solid;
-    width: 29%;
+    top: 214px;
+    width:50%;
     height: 117px;
     left: 34%;
 }
@@ -244,7 +422,7 @@ header nav a:hover {
     height: 117px;
     left: 34%;
 }
-.cuadrado6{
+.h{
     background: linear-gradient(rgb(248, 243, 243) 70% ,rgba(245,245,220,0.1 ));
     top: 214px;
     border-color: black(49 184 121);
@@ -254,4 +432,40 @@ header nav a:hover {
     width: 29%;
     height: 117px;
     left: 34%;
+}
+
+.titulo{
+    top: -169px;
+    width: 127%;
+    height: 13px;
+    left: -47%;
+    position: relative;
+}
+.cuerpo{
+    top: -129px;
+    width: 127%;
+    height: -15px;
+    left: 1%;
+    position: relative;
+
+}
+ footer{
+    top: 404px;
+        width: 100%;
+        height: -15px;
+        left: 0%;
+        position: relative;
+        background: #cedaa3;
+        margin: 0;
+        padding: 8px;
+        color: rgb(10 68 54);
+        text-align: center;
+    
+} 
+.iconSocial{
+    float: center;
+    padding: 5px 3px 4px 3px;
+}
+@media screen and (max-width: 460px){
+
 }

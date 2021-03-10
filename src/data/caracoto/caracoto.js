@@ -1,13 +1,15 @@
 let CARACOTO= {
   "caracoto": [{
-    
+    "id": 1,
+    "num": "001",
     "name": "RAYMUNDO YANA YANA",
     "type": [
       "alcalde"
       
     ]
   }, {
-   
+    "id": 2,
+    "num": "002",
     "name": "YOHONSON W. CAHUINA ROSELLO",
     "type": [
       "ASESOR-LEGAL"
@@ -15,14 +17,16 @@ let CARACOTO= {
     ],
     
   }, {
-   
+    "id": 3,
+    "num": "003",
     "name": "MARIO ELMER YANQUI YANA",
     "type": [
       "RECURSOS-HUMANOS"
     ],
     
   },  {
-  
+    "id": 4,
+    "num": "004",
     "name": "RENEE QUISPE QUISPE",
     "type": [
   
@@ -30,7 +34,8 @@ let CARACOTO= {
     ],
     
   }, {
-    
+    "id": 5,
+    "num": "005",
     "name": "BERGILIO QUISPE JACHO",
     "type": [
       "OFICINA-TESORERIA "
